@@ -91,12 +91,6 @@ pipeline {
                   }
          }
 
-         #stage('Remove Unused docker image') {
-         #         steps{
-         #           sh "docker rmi $registry:v$BUILD_NUMBER"
-         #         }
-         #}
-
 
 
      stage('Kubernetes Deploy') {
